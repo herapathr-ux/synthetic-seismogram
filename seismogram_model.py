@@ -48,8 +48,9 @@ def travelTime(thickness, density, velocity, timeSamples):
     plt.show()
     
 # Example usage
-thickness = [3, 60, 100]  # in meters
+thickness = [3, 60, 100]  # in metres
 density = [1800, 2100, 2300]  # kg/m^3
 velocity = [800, 1860, 4500]  # m/s
 timeSamples = 500
+
 travelTime(thickness, density, velocity, timeSamples)
